@@ -1,21 +1,21 @@
-% This function performs a Gillespie-style stochastic simulation of actin
+This function performs a Gillespie-style stochastic simulation of actin
 % filaments assembling from a membrane-localized pool of profilin-actin
 % complexes. 
 %
-% INPUT PARAMETERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% INPUT PARAMETERS 
 % Nfil - total number of filaments in proximity to the membrane
 % Msite - surface density of profilin-binding sites on the membrane
 % kvect - vector of rate constants (currently 9)
 % PA - concentration of soluble profilin-actin
 % maxT - maximum time for simulation
 %
-% OUTPUT VALUES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OUTPUT VALUES
 % time -- vector with time values of simulation
 % Ptot -- total polymer in the filament network
 % mpool -- average fractional occupancy of the membrane pools at ss
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Parameters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Parameters 
 % nM - number of free membrane sitesactin
 % PA - concentration of profilin-actin complexes
 % nMPA - membrane-bound profilin-
