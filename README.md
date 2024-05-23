@@ -23,5 +23,4 @@ This function performs a Gillespie-style stochastic simulation of actin
 % nMPF - membrane-bound profilin-filament complex
 % nMP - membrane-bound profilin
 % nF - number of free filaments 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [time,Ptot,mpool,fpool] = membrane_pool(Nfil,Msite,kvect,PA,maxT)
