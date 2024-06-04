@@ -1,8 +1,8 @@
 This function performs a Gillespie-style stochastic simulation of actin
 filaments assembling from a membrane-localized pool of profilin-actin
-complexes. 
+complexes.  \ 
 %
-% INPUT PARAMETERS 
+% INPUT PARAMETERS  \ 
 % Nfil - total number of filaments in proximity to the membrane  \
 % Msite - surface density of profilin-binding sites on the membrane  \
 % kvect - vector of rate constants (currently 9)  \
